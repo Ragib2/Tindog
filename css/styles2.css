@@ -1,0 +1,199 @@
+
+#title{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: aliceblue;
+}
+h1{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+     
+}
+h2{
+    font-family:  "Montserrat-Bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    line-height: 1.5rem;
+   
+}
+
+.container-fluid{
+    padding: 3% 15%;
+  
+}
+
+.phone{
+    width: 18%;
+    transform: rotate(20deg); 
+    position: absolute;
+    z-index: 0;  /*by default z-index is 0 */
+    right: 20%; 
+  
+}
+
+                                                            /*Navigation-bar*/
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+.navbar{
+    padding-bottom: 7%;
+    
+}
+.nav-item{
+ padding: 0 18px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+                                                                          /* button*/
+
+.download-button{
+   margin: 10% 5% 10% 0;
+   
+}
+
+                                                                                   /* features*/
+#features{
+ 
+    padding-top: 7%;
+    padding-bottom: 7%;  
+    text-align: center;  
+    background-color: #F5F5F5; 
+    position:relative;
+    z-index: 1;  /*features section is below image section so it means we dont need to add z-index 1 if we delete this z-index we still get the right */
+  
+}
+
+
+.feature-para{
+  
+    line-height: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
+    color: #B2B2B2;
+}
+.fa-heart{
+    color: #E96479;
+    margin-bottom: 2%;
+}
+.fa-heart:hover{
+    color: #ff4cbb;
+}
+
+.fa-bullseye {
+    color: #E96479;
+    margin-bottom: 2%;
+}
+.fa-bullseye:hover{
+    color: #ff4cbb;
+}
+
+.fa-circle-check{
+    color: #E96479;
+    margin-bottom: 2%;
+}
+.fa-circle-check:hover{
+    color: #ff4cbb;
+}
+
+                                                                            /*testimonials*/
+#testimonials{
+   
+    text-align: center;
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+.testimonial-img{
+    width: 14%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 19%;
+}
+                                                                                  /*press*/
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 10%;
+}
+.press-logo{
+    width: 12%;
+    margin: 10px 25px 20px;
+}
+
+                                                                           /*pricing section*/
+
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+.price-column{
+    padding: 3% 3%;
+}
+
+                                                               /* -----Advanced CSS media quaries*/
+@media (max-width: 1028px){
+
+    
+ #title{
+    text-align: center;
+ }
+ h2{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: bold;
+ }
+
+    .phone{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+                                                                  /*---Call to Action---*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 20% 2%;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.0rem;
+    font-weight: bold;
+    line-height: 1.5;
+   
+    color: aliceblue;
+}
+.btn{
+    margin: 5% 5% 10% 0;
+}
+
+                                                                 /*---footer-section--*/
+#footer{
+  background-color: #ffff;
+  text-align: center;
+  padding: 3% 10%;
+}
+.footer-para{
+    font-family: "Ubuntu";
+    font-size: .9rem;
+    padding-top: 1%;
+}
+.footer-icon{
+    margin: 0 1%;
+}
